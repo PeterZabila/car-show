@@ -7,16 +7,12 @@ export const metadata = {
   description: 'Educatoinal sample app',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className="relative">
         <Navbar />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>
