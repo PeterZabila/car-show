@@ -36,6 +36,7 @@ export interface FilterProps {
     model?: string;
     limit?: number;
     fuel?: string;
+    pageNumber?: number;
   }
   
 export interface HomeProps {
